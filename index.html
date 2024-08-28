@@ -101,13 +101,20 @@
                             <div class="form-title">Message</div>: &nbsp;
                             <textarea rows="4"></textarea>
                           </div>
-                          <button class="form-submit">Submit</button>
+                          <button type="button" onclick="formValidation()">Submit</button>
                      </div>
-                    <div class="form-personal"></div>
+                    <div class="form-container">
+                        <form id="right-form">
+                            <h2>Result:</h2>
+                            <p id="output-name"></p>
+                            <p id="output-date"></p>
+                            <p id="output-gender"></p>
+                            <p id="output-message"></p>
+                    </form>
                 </div>
             </form>
 
-            <div></div>
+            <div> </div>
         </section>
     </main>
 
@@ -116,6 +123,8 @@
 
         <p class="footer-text">Created by Savira Nabillah</p>
     </footer>
+
+    <script scr="js\script.js"></script>
 </body>
 
 </html>

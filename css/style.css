@@ -32,7 +32,7 @@ nav {
 }
 
 .nav-item:focus {
-    color: blue
+    color: lightgray
 }
 
 .nav-container {
@@ -85,7 +85,7 @@ nav {
     text-align: right;
 }
 
-.form-personal {
+.form-container {
     border: 1px solid black;
     padding: 15px; 
     width: 35%;
@@ -93,9 +93,9 @@ nav {
 
 .form-container {
     display:  flex;
-    padding: 30px 10%;
+    padding: 10px 10%;
     gap: 5%;
-    width: 100%;
+    width: 80%;
 }
 
 .form-item {
@@ -117,4 +117,10 @@ nav {
 
 .form-submit {
     width: 50%;
+}
+
+@medi only and (max-width: 375px) {
+    nav{
+        flex-direction: column;
+    }
 }
